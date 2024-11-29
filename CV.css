@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(30, 27, 38);
+    /* height: 100vh;
+    width: 100vw;
+    overflow-x: auto; */
+}
+.napBar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 80px;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    /* border: 10px solid white; */
+}
+.element{
+    color: white;
+    display: inline;
+}
+
+.niraj{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 280px;
+    color: red;
+}
+
+.home{
+    margin-left: 200px;
+}
+
+
+
+.Intro {
+    display:inline-block;
+    color: white;
+    padding: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+
+.image{
+    display: inline-block;
+    padding-right: 120px;
+    vertical-align: top;
+    margin-left: 200px;
+    background-image: url("image.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+}
+
+.buttons{
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    padding: 50px;
+    margin-left: 50px; 
+}
+
+.buttons button{
+    background-color: red;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#about{
+    background-color: #134B70;
+    height: 100vh;
+    width: 100vw;
+}
